@@ -8,7 +8,7 @@ The application predicts whether a customer is likely to leave (churn) based on 
 
 **Try the application here:**
 
-[Customer Churn Prediction App](https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/?utm_source=chatgpt.com)
+https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/
 
 ---
 
