@@ -8,7 +8,7 @@ The application predicts whether a customer is likely to leave (churn) based on 
 
 **Try the application here:**
 
-https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/
+[Customer Churn Prediction App](https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/)
 
 ---
 
@@ -102,18 +102,18 @@ The output represents the probability that the customer will churn.
 
 The application accepts the following customer information:
 
-| Feature            | Description                              |
-| ------------------ | ---------------------------------------- |
-| Credit Score       | Customer's credit score                  |
-| Geography          | Customer's country/region                |
-| Gender             | Customer's gender                        |
-| Age                | Customer's age                           |
-| Tenure             | Number of years with the bank            |
-| Balance            | Customer's account balance               |
-| Number of Products | Number of bank products used             |
-| Has Credit Card    | Whether the customer has a credit card   |
-| Is Active Member   | Whether the customer is an active member |
-| Estimated Salary   | Estimated customer salary                |
+| Feature | Description |
+|---|---|
+| Credit Score | Customer's credit score |
+| Geography | Customer's country/region |
+| Gender | Customer's gender |
+| Age | Customer's age |
+| Tenure | Number of years with the bank |
+| Balance | Customer's account balance |
+| Number of Products | Number of bank products used |
+| Has Credit Card | Whether the customer has a credit card |
+| Is Active Member | Whether the customer is an active member |
+| Estimated Salary | Estimated customer salary |
 
 ---
 
@@ -207,16 +207,16 @@ Not Likely to Churn
 
 The application provides an interactive interface where users can enter:
 
-* Geography
-* Gender
-* Age
-* Balance
-* Credit Score
-* Estimated Salary
-* Tenure
-* Number of Products
-* Credit Card status
-* Active Member status
+- Geography
+- Gender
+- Age
+- Balance
+- Credit Score
+- Estimated Salary
+- Tenure
+- Number of Products
+- Credit Card status
+- Active Member status
 
 The entered information is processed and passed to the trained ANN model.
 
@@ -256,27 +256,27 @@ churn-prediction_ann/
 
 ### File Description
 
-| File                       | Purpose                       |
-| -------------------------- | ----------------------------- |
-| `app.py`                   | Streamlit application         |
-| `model.h5`                 | Trained ANN model             |
-| `scaler.pkl`               | Saved StandardScaler          |
-| `label_encoder_gender.pkl` | Saved Gender LabelEncoder     |
-| `onehot_encoder_geo.pkl`   | Saved Geography OneHotEncoder |
-| `requirements.txt`         | Python dependencies           |
-| `README.md`                | Project documentation         |
+| File | Purpose |
+|---|---|
+| `app.py` | Streamlit application |
+| `model.h5` | Trained ANN model |
+| `scaler.pkl` | Saved StandardScaler |
+| `label_encoder_gender.pkl` | Saved Gender LabelEncoder |
+| `onehot_encoder_geo.pkl` | Saved Geography OneHotEncoder |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Project documentation |
 
 ---
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **TensorFlow / Keras**
-* **Scikit-learn**
-* **Pandas**
-* **NumPy**
-* **Streamlit**
-* **Pickle**
+- **Python**
+- **TensorFlow / Keras**
+- **Scikit-learn**
+- **Pandas**
+- **NumPy**
+- **Streamlit**
+- **Pickle**
 
 ---
 
@@ -368,13 +368,13 @@ Churn / No Churn
 
 The main objectives of this project are:
 
-* Build an ANN-based classification model.
-* Understand neural network architecture.
-* Perform categorical feature encoding.
-* Apply feature scaling.
-* Save and reuse preprocessing objects.
-* Deploy a machine learning model using Streamlit.
-* Build an end-to-end machine learning application.
+- Build an ANN-based classification model.
+- Understand neural network architecture.
+- Perform categorical feature encoding.
+- Apply feature scaling.
+- Save and reuse preprocessing objects.
+- Deploy a machine learning model using Streamlit.
+- Build an end-to-end machine learning application.
 
 ---
 
@@ -384,7 +384,7 @@ The application is deployed using **Streamlit**.
 
 ### Live Application
 
-[Open Customer Churn Prediction App](https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/?utm_source=chatgpt.com)
+[Open Customer Churn Prediction App](https://churn-predictionann-24wrcl2s3bhjaphlmbwujt.streamlit.app/)
 
 ---
 
@@ -392,15 +392,15 @@ The application is deployed using **Streamlit**.
 
 Possible improvements include:
 
-* Hyperparameter tuning of the ANN.
-* Adding Early Stopping.
-* Adding TensorBoard model visualization.
-* Improving the Streamlit UI.
-* Displaying additional model evaluation metrics.
-* Adding confusion matrix and ROC-AUC visualization.
-* Adding probability-based risk levels.
-* Containerizing the application using Docker.
-* Adding model monitoring and logging.
+- Hyperparameter tuning of the ANN.
+- Adding Early Stopping.
+- Adding TensorBoard model visualization.
+- Improving the Streamlit UI.
+- Displaying additional model evaluation metrics.
+- Adding confusion matrix and ROC-AUC visualization.
+- Adding probability-based risk levels.
+- Containerizing the application using Docker.
+- Adding model monitoring and logging.
 
 ---
 
